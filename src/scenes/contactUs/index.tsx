@@ -63,7 +63,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             }}
           >
             <form
-              target="_blank"
               onSubmit={onSubmit}
               method="POST"
               action="https://formsubmit.co/el/biwaci"
